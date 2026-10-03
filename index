@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Xinyi (Cynthia) Wei - Portfolio</title>
-    <!-- 引入高级艺术字体 -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
     <style>
         body {
@@ -22,8 +21,6 @@
             margin: 80px auto;
             position: relative;
         }
-
-        /* 艺术肖像区域设计 */
         .profile-section {
             display: flex;
             align-items: center;
@@ -33,14 +30,13 @@
             text-align: center;
         }
 
-        /* 重点：头像的艺术错位阴影 */
         .profile-image {
             width: 220px;
             height: 220px;
-            border-radius: 50%; /* 圆形裁切 */
+            border-radius: 50%; 
             object-fit: cover;
             object-position: top;
-            box-shadow: 15px 15px 0px #b0b9c3; /* 呼应西装和领结的高级灰蓝阴影 */
+            box-shadow: 15px 15px 0px #b0b9c3; 
             border: 4px solid #ffffff;
             margin-bottom: 30px;
             transition: transform 0.4s ease;
@@ -67,11 +63,10 @@
             margin-top: 10px;
         }
 
-        /* 版块的极简艺术风 */
         .section {
             margin-bottom: 60px;
             padding-left: 20px;
-            border-left: 1px solid #d4d9de; /* 极简的左侧线条 */
+            border-left: 1px solid #d4d9de; 
         }
 
         h2 {
@@ -83,7 +78,6 @@
             color: #2c3e50;
         }
 
-        /* 技能标签 - 极简轮廓线风格 */
         .skills-list {
             display: flex;
             flex-wrap: wrap;
@@ -99,10 +93,9 @@
             border-radius: 30px;
             font-size: 0.85em;
             letter-spacing: 1px;
-            text-transform: lowercase; /* 全小写增加设计感 */
+            text-transform: lowercase; 
         }
 
-        /* 项目列表排版 */
         .project {
             margin-bottom: 35px;
         }
@@ -126,7 +119,6 @@
             display: inline-block;
         }
         
-        /* 满足作业“可点击链接”的要求 */
         .working-link {
             text-decoration: none;
             color: #ffffff;
@@ -156,20 +148,17 @@
 
     <div class="container">
         
-        <!-- 头像与标题区域 (已经改为了你的准确文件名) -->
         <div class="profile-section">
             <img src="headshot.JPG" alt="Xinyi Wei Profile Photo" class="profile-image">
             <h1>Xinyi Wei</h1>
             <div class="subtitle">Finance • Consulting • Visual Arts</div>
         </div>
 
-        <!-- 1. 个人简介 (Personal Statement) - 满足作业第一条 -->
         <div class="section">
             <h2>Personal Statement</h2>
             <p>I am a dedicated Finance student at Rutgers Business School with consulting experience at PwC, merging rigorous data analysis capabilities with a deep appreciation for visual aesthetics and collaborative problem-solving.</p>
         </div>
 
-        <!-- 2. 技能展示 (Skills) - 满足作业第二条 -->
         <div class="section">
             <h2>Core Capabilities</h2>
             <ul class="skills-list">
@@ -182,7 +171,6 @@
             </ul>
         </div>
 
-        <!-- 3. 项目经历 (Projects) - 满足作业第三条，自带链接按钮 -->
         <div class="section">
             <h2>Selected Works & Experience</h2>
             
